@@ -28,3 +28,11 @@ Any implementation of FareStrategy or RideMatchingStrategy can replace another i
 Example:
 ```java
 FareStrategy strategy = new PeakHourFareStrategy();
+## Interface Segregation Principle (ISP)
+
+Small focused interfaces are used:
+
+FareStrategy
+RideMatchingStrategy
+
+---
